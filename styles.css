@@ -9,7 +9,7 @@ td, th {
   padding: 8px;
 }
 tr:nth-child(even) {
-  background-color: #022a7a;
+  background-color: #ffb300;
 }
 .curtain {
   width: 100%;
