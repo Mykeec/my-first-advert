@@ -2,43 +2,67 @@
 <html>
     <head>
         <title>My First Advert</title>
-        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" type="text/css" href="styles.css">
     </head>
 
 
     <body>
-        <h2>Code Differently Movie Night</h2>
+   <!-- The parent component -->
+<div class="curtain">
+    
+    <!-- The component wrapper -->
+  <div class="curtain__wrapper">
+    
+    <!-- The checkbox hack! -->
+        <input type="checkbox" checked>
+    
+    <!-- The left curtain panel -->
+    <div class="curtain__panel curtain__panel--left">
 
-<table>
-  <tr>
-    <th>Movies</th>
-    <th>Where</th>
-  </tr>
-  <tr>
-    <td><p><a href="lion-king.html">Lion King</a></p></td>
-    <td>Teen room 7/17/19</td>
-  </tr>
-  <tr>
-    <td>Toy story 4</td>
-    <td>Black box 7/18/19 </td>
-  </tr>
-  <tr>
-    <td>Spider-Man: Far From Home</td>
-    <td>Computer lab 7/20/19</td>
-  </tr>
-  <tr>
-    <td>The Intruder</td>
-    <td>Teen Room 7/19/19</td>
-  </tr>
-  <tr>
-    <td>Child Play</td>
-    <td>Black box 7/16/19</td>
-  </tr>
-  <tr>
-    <td>Annabelle</td>
-    <td>Computer lab 7/21/19</td>
-  </tr>
-</table>
+    </div> <!-- curtain__panel -->
+    
+    <!-- The prize behind the curtain panels -->
+    <div class="curtain__prize">     <h2>Code Differently Movie Night</h2>
 
+      <table>
+        <tr>
+          <th>Movies</th>
+          <th>Where</th>
+        </tr>
+        <tr>
+          <td><p><a href="lion-king.html">Lion King</a></p></td>
+          <td>Teen room 7/17/19</td>
+        </tr>
+        <tr>
+          <td>Toy story 4</td>
+          <td>Black box 7/18/19 </td>
+        </tr>
+        <tr>
+          <td>Spider-Man: Far From Home</td>
+          <td>Computer lab 7/20/19</td>
+        </tr>
+        <tr>
+          <td>The Intruder</td>
+          <td>Teen Room 7/19/19</td>
+        </tr>
+        <tr>
+          <td>Child Play</td>
+          <td>Black box 7/16/19</td>
+        </tr>
+        <tr>
+          <td>Annabelle</td>
+          <td>Computer lab 7/21/19</td>
+        </tr>
+      </table>
+
+    </div> <!-- curtain__prize -->
+    
+    <!-- The right curtain panel -->
+    <div class="curtain__panel curtain__panel--right">
+        
+    </div> <!-- curtain__panel -->
+    
+  </div> <!-- curtain__wrapper -->
+</div> <!-- curtain -->
 </body>
 </html>
