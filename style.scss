@@ -1,7 +1,7 @@
 table {
     font-family: arial, sans-serif;
     border-collapse: collapse;
-    width: 100%;
+    width: 80%;
   }
   
   td, th {
@@ -13,7 +13,6 @@ table {
   tr:nth-child(even) {
     background-color: #022a7a;
   }
-
   .curtain {
     width: 100%; /* Ensures the component is the full screen width */
     height: 100vh; /* We're using this for demo purposes */
